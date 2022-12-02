@@ -1,0 +1,19 @@
+{
+  "Spec": {
+    "LocalDNSProxy": {
+      "UpstreamDNSServers": {
+        "Primary": "1.1.1.1",
+        "Secondary": "8.8.8.8"
+      }
+    }
+  },
+  "DNSResolveDB": {
+    "www.test.com": [
+      "1.2.3.4",
+      "11.22.33.44"
+    ],
+    "www.hello.com": [
+      "10.10.10.10"
+    ]
+  }
+}

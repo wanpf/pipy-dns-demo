@@ -1,0 +1,124 @@
+[
+  {
+    "name": "a11b22c33d44.com",
+    "type": "A",
+    "ttl": 60,
+    "rdata": "192.168.139.10"
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "A",
+    "ttl": 600,
+    "rdata": "10.10.10.1"
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "A",
+    "ttl": 600,
+    "rdata": "10.10.10.2"
+  },
+  {
+    "name": "www.a11b22c33d44.com",
+    "type": "CNAME",
+    "ttl": 3600,
+    "rdata": "www.a.a11b22c33d44.com"
+  },
+  {
+    "name": "test.a11b22c33d44.com",
+    "type": "A",
+    "status": "deny"
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "AAAA",
+    "ttl": 3600,
+    "rdata": "2405:6584:7840:800::1"
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "AAAA",
+    "ttl": 3600,
+    "rdata": "2405:6584:7840:800::2"
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "MX",
+    "ttl": 3600,
+    "rdata": {
+      "preference": 10,
+      "exchange": "mail1.a11b22c33d44.com"
+    }
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "MX",
+    "ttl": 3600,
+    "rdata": {
+      "preference": 20,
+      "exchange": "mail2.a11b22c33d44.com"
+    }
+  },
+  {
+    "name": "_xmpp-client._tcp.a11b22c33d44.com",
+    "type": "SRV",
+    "ttl": 3600,
+    "rdata": {
+      "priority": 5,
+      "weight": 0,
+      "port": 5222,
+      "target": "a11b22c33d44.com"
+    }
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "TXT",
+    "ttl": 3600,
+    "rdata": "hello.world!"
+  },
+  {
+    "name": "192.168.139.10",
+    "type": "PTR",
+    "ttl": 3600,
+    "rdata": "a11b22c33d44.com"
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "SOA",
+    "ttl": 3600,
+    "rdata": {
+      "mname": "dns.a11b22c33d44.com",
+      "rname": "sa.a11b22c33d44.com",
+      "serial": 2012145856,
+      "refresh": 300,
+      "retry": 300,
+      "expire": 2592000,
+      "minimum": 7200
+    }
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "NS",
+    "ttl": 3600,
+    "rdata": "ns1.a11b22c33d44.com"
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "NS",
+    "ttl": 3600,
+    "rdata": "ns2.a11b22c33d44.com"
+  },
+  {
+    "name": "a11b22c33d44.com",
+    "type": "NS",
+    "ttl": 3600,
+    "rdata": "ns3.a11b22c33d44.com"
+  },
+  {
+    "DOMAIN_NAME": "a11b22c33d44.com",
+    "name": "",
+    "type": "OPT",
+    "class": 1232,
+    "ttl": 0,
+    "rdata": ""
+  }
+]
